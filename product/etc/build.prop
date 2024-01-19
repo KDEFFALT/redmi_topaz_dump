@@ -1,0 +1,61 @@
+####################################
+# from generate-common-build-props
+# These properties identify this partition image.
+####################################
+ro.product.product.brand=Redmi
+ro.product.product.device=topaz
+ro.product.product.manufacturer=Xiaomi
+ro.product.product.model=Redmi Note 12 NFC
+ro.product.product.name=aospa_topaz
+ro.product.build.date=Tue Sep 19 01:38:57 UTC 2023
+ro.product.build.date.utc=1695087537
+ro.product.build.fingerprint=Redmi/aospa_topaz/topaz:13/TKQ1.230829.001/chris09190138:user/release-keys
+ro.product.build.id=TKQ1.230829.001
+ro.product.build.tags=release-keys
+ro.product.build.type=user
+ro.product.build.version.incremental=eng.chris.20230919.014115
+ro.product.build.version.release=13
+ro.product.build.version.release_or_codename=13
+ro.product.build.version.sdk=33
+####################################
+# from variable ADDITIONAL_PRODUCT_PROPERTIES
+####################################
+ro.product.vndk.version=33
+ro.build.characteristics=nosdcard
+ro.product.ab_ota_partitions=boot,dtbo,init_boot,odm,product,recovery,system,system_dlkm,system_ext,vbmeta,vbmeta_system,vendor,vendor_boot,vendor_dlkm
+####################################
+# from variable PRODUCT_PRODUCT_PROPERTIES
+####################################
+debug.sf.disable_backpressure=1
+persist.sys.fuse.passthrough.enable=true
+persist.vendor.ims.no_stapa=1
+persist.vendor.radio.enable_temp_dds=true
+rild.libpath=/vendor/lib64/libril-qc-hal-qmi.so
+ro.vendor.radio.features_common=3
+ro.vendor.radio.fastdormancy=true
+persist.timed.enable=true
+ro.com.google.gmsversion=13_202208
+ro.opa.eligible_device=true
+ro.setupwizard.rotation_locked=true
+setupwizard.theme=glif_v4_light
+ro.com.google.clientidbase=android-xiaomi
+ro.config.alarm_alert=Fresh_start.ogg
+ro.config.notification_sound=Eureka.ogg
+ro.config.ringtone=Your_new_adventure.ogg
+ro.boot.vendor.overlay.theme=com.android.internal.systemui.navbar.gestural
+ro.support_one_handed_mode=true
+af.fast_track_multiplier=1
+audio.offload.video=true
+audio.deep_buffer.media=true
+audio.sys.noisy.broadcast.delay=500
+audio.sys.mute.latency.factor=2
+audio.sys.routing.latency=0
+audio.offload.min.duration.secs=30
+audio.sys.offload.pstimeout.secs=3
+ro.af.client_heap_size_kbyte=7168
+media.stagefright.audio.deep=false
+aaudio.mmap_policy=2
+aaudio.mmap_exclusive_policy=2
+aaudio.hw_burst_min_usec=2000
+persist.sys.disable_rescue=true
+# end of file
