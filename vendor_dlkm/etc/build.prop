@@ -1,0 +1,20 @@
+####################################
+# from generate-common-build-props
+# These properties identify this partition image.
+####################################
+ro.product.vendor_dlkm.brand=Redmi
+ro.product.vendor_dlkm.device=topaz
+ro.product.vendor_dlkm.manufacturer=Xiaomi
+ro.product.vendor_dlkm.model=Redmi Note 12 NFC
+ro.product.vendor_dlkm.name=aospa_topaz
+ro.vendor_dlkm.build.date=Tue Sep 19 01:38:57 UTC 2023
+ro.vendor_dlkm.build.date.utc=1695087537
+ro.vendor_dlkm.build.fingerprint=Redmi/aospa_topaz/topaz:13/TKQ1.230829.001/chris09190138:user/release-keys
+ro.vendor_dlkm.build.id=TKQ1.230829.001
+ro.vendor_dlkm.build.tags=release-keys
+ro.vendor_dlkm.build.type=user
+ro.vendor_dlkm.build.version.incremental=eng.chris.20230919.014115
+ro.vendor_dlkm.build.version.release=13
+ro.vendor_dlkm.build.version.release_or_codename=13
+ro.vendor_dlkm.build.version.sdk=33
+# end of file
